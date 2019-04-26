@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_study?serverTimezone=UTC
+    username: root
+    password: noel
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none #create 로 해놓으면 Data전체 삭제 됨. 개발 초기에는 update 사용하나 상용에는 none 필수.
