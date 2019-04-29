@@ -5,13 +5,16 @@
 ////import com.baeldung.restdocs.CrudInput;
 ////import com.baeldung.restdocs.SpringRestDocsApplication;
 //import com.fasterxml.jackson.databind.ObjectMapper;
+//
+//import kr.co.noel.study.SpringBootBoardApplication;
+//import springfox.documentation.service.MediaTypes;
+//
 //import org.junit.Before;
 //import org.junit.Rule;
 //import org.junit.Test;
 //import org.junit.runner.RunWith;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.boot.test.context.SpringBootTest;
-//import org.springframework.hateoas.MediaTypes;
 //import org.springframework.restdocs.JUnitRestDocumentation;
 //import org.springframework.restdocs.constraints.ConstraintDescriptions;
 //import org.springframework.test.context.junit4.SpringRunner;
@@ -43,7 +46,7 @@
 //import static org.springframework.restdocs.request.RequestDocumentation.pathParameters;
 //
 //@RunWith(SpringRunner.class)
-//@SpringBootTest(classes = SpringRestDocsApplication.class)
+//@SpringBootTest(classes = SpringBootBoardApplication.class)
 //public class ApiDocumentationJUnit4IntegrationTest {
 //
 //    @Rule
